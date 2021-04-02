@@ -1,3 +1,29 @@
+@font-face{
+  font-family: montserrat;
+  src: url(web-fonts/montserrat/Montserrat-Black.otf),
+        url(web-fonts/montserrat/Montserrat-Bold.otf),
+        url(web-fonts/montserrat/Montserrat-Light.otf),
+        url(web-fonts/montserrat/Montserrat-ExtraLight.otf),
+        url(web-fonts/montserrat/Montserrat-Light.otf),
+        url(web-fonts/montserrat/Montserrat-Medium.otf),
+        url(web-fonts/montserrat/Montserrat-Regular.otf),
+        url(web-fonts/montserrat/Montserrat-Thin.otf);
+  font-weight: lighter, bolder;
+      }
+@font-face{
+  font-family: Nexa;
+  src: url(web-fonts/Nexa/Nexa\ Bold.otf),
+       url(web-fonts/Nexa/Nexa\ Light.otf);
+  font-weight: 100 800;
+ }
+@font-face{
+  font-family: PierSans;
+  src: url(web-fonts/PierSans/PierSans-Light.otf),
+       url(web-fonts/PierSans/PierSans-Regular.otf),
+       url(web-fonts/PierSans/PierSans-Medium.otf),
+       url(web-fonts/PierSans/PierSans-Bold.otf);
+  font-weight: lighter, bolder;
+      }
 *{
   margin: 0%;
   padding: 0%;
@@ -5,7 +31,7 @@
 }
 body{
   width: 100%;
-  font-family: '';
+  font-family:raleway, gotham, 'pier sans', Gothic A1,;
 }
 .banner img{
   float: left;
@@ -16,6 +42,6 @@ body{
   background-image:url("images/IMG-20190726-WA0032.jpg");
   background-position-x: center;
   background-position-y: ;
-  background-size: cover;
+  background-size: ;
   font-size: 0%;
 }
