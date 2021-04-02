@@ -1,19 +1,19 @@
 @font-face{
-  font-family: montserrat;
-  src: url(web-fonts/montserrat/Montserrat-Black.otf),
-        url(web-fonts/montserrat/Montserrat-Bold.otf),
-        url(web-fonts/montserrat/Montserrat-Light.otf),
-        url(web-fonts/montserrat/Montserrat-ExtraLight.otf),
-        url(web-fonts/montserrat/Montserrat-Light.otf),
-        url(web-fonts/montserrat/Montserrat-Medium.otf),
-        url(web-fonts/montserrat/Montserrat-Regular.otf),
-        url(web-fonts/montserrat/Montserrat-Thin.otf);
+  font-family: Montserrat;
+  src: url(web-fonts/Montserrat/Montserrat-Black.otf),
+        url(web-fonts/Montserrat/Montserrat-Bold.otf),
+        url(web-fonts/Montserrat/Montserrat-Light.otf),
+        url(web-fonts/Montserrat/Montserrat-ExtraLight.otf),
+        url(web-fonts/Montserrat/Montserrat-Light.otf),
+        url(web-fonts/Montserrat/Montserrat-Medium.otf),
+        url(web-fonts/Montserrat/Montserrat-Regular.otf),
+        url(web-fonts/Montserrat/Montserrat-Thin.otf);
   font-weight: lighter, bolder;
       }
 @font-face{
   font-family: Nexa;
-  src: url(web-fonts/Nexa/Nexa\ Bold.otf),
-       url(web-fonts/Nexa/Nexa\ Light.otf);
+  src: url(web-fonts/Nexa/Nexa-Bold.otf),
+       url(web-fonts/Nexa/Nexa-Light.otf);
   font-weight: 100 800;
  }
 @font-face{
@@ -22,7 +22,7 @@
        url(web-fonts/PierSans/PierSans-Regular.otf),
        url(web-fonts/PierSans/PierSans-Medium.otf),
        url(web-fonts/PierSans/PierSans-Bold.otf);
-  font-weight: lighter, bolder;
+  font-weight: lighter bolder;
       }
 *{
   margin: 0%;
@@ -31,7 +31,8 @@
 }
 body{
   width: 100%;
-  font-family:raleway, gotham, 'pier sans', Gothic A1,;
+  font-family:montserrat, sans-serif;
+  font-weight: lighter;
 }
 .banner img{
   float: left;
