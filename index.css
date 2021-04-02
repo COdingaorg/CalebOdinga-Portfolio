@@ -1,0 +1,21 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  font-family: '';
+}
+.banner img{
+  float: left;
+  height: 200px;
+  width: 200px;
+  shape-outside: circle();
+  clip-path: circle();
+  background-image:url("images/IMG-20190726-WA0032.jpg");
+  background-position-x: center;
+  background-position-y: ;
+  background-size: cover;
+  font-size: 0%;
+}
