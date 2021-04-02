@@ -37,10 +37,12 @@ body{
 #navbar{
   height: 70px;
   background-color: #D96704;
+  color: white;
+  font-weight: bold;
 }
 #navbar button{
   position: relative;
-  left: 50%;
+  left: 40%;
   margin-top: 20px;
   margin-right: 2%;
   width: 8%;
@@ -62,6 +64,7 @@ button :hover, .active{
 button>.active{
   border-bottom: 2px solid white;
 }
+/*Styling for the landing page image*/
 #face{
   float: left;
   height: 300px;
@@ -73,8 +76,8 @@ button>.active{
   background-position-y: 8%;
   background-size: 100%;
   font-size: 0%;
-}
-#logo, #logo1{
+}/*Styling for the log and adding the shape to it*/
+#logo{
   float: left;
   width: 50px;
   height: 50px;
@@ -100,6 +103,10 @@ button>.active{
   );
   background-color: #d99d55;
   margin-top: 10px;
+  border: 4px solid white;
+  font-size: 0.8em;
+  padding-top: 1%;
+  font-weight: bolder;
 }
 #logo{
   margin-left: 20px;
