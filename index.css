@@ -360,3 +360,74 @@ svg:hover{
     background-image: url('images/Screenshot\ from\ 2021-04-03\ 16-19-42.png');
     background-size: cover;
   }
+  /*Styling Hobbies page. Aso labeled as Fun side"*/
+  #fun{
+    background-image: url('images/palmBeach.jpg');
+    background-size: 100%;
+    color: white;
+  }
+  #overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  #hobbiesslide{
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/artwork.jpg');
+    border-bottom: 5px solid #d99d55;
+  }
+  #hobbiesslide>p{
+    font-size: 2em;
+    color: white;
+    background-color: rgba(115, 44, 2, 0.6);
+    width: 20%;
+    height: 40px;
+    padding: 1%;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  #hobby1, #hobby2, #hobby3, #hobby4{
+    width: 40%;
+    height: 300px;
+    margin: 5%;
+    overflow: hidden;
+    border: 5px solid white;
+    border-radius: 10px;
+  }
+  #hobbycont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2%;
+  }
+  #hobby1 img, #hobby2 img, #hobby3 img, #hobby4 img, #hobby5 img{
+    width: 100%;
+  }
+  #hobby5{
+    height: 300px;
+    border: 3px solid white;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  #hobby5 img{
+    float: left;
+  }
+ #hobby1>p, #hobby2>p, #hobby3>p, #hobby4>p{
+   background-color: white;
+   color: black;
+  }
+  #play{
+    background-color: #732c02;
+    width: 200%;
+    text-align: center;
+    padding: 1%;
+    font-size: 1.3em;
+    color: white;
+  }
+  #play audio{
+    margin-top: 2S%;
+  }
+ 
