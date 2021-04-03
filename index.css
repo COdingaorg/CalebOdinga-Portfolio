@@ -298,4 +298,65 @@ svg:hover{
   margin-left: 1%;
   position: relative;
   top: 56%;
-  )
+}
+  /*Styling the projec samples section*/
+  #projects{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    padding: 2%;
+  }
+  .title{
+    text-align: center;
+    margin-top: 2%;
+    color: white;
+    background-color: #732c02;
+    padding: 1.5%
+  }
+  #project1, #project2, #project3, #project4{
+    margin: 3% 2% 0 2%;
+    height: 40%;
+    width: 460px;
+    background-color: seagreen;
+  }
+  .projectDescription{
+    background-color: white;
+    width: 40%;
+    height: 100%;
+    border: 2px solid #d99d55;
+  }
+  #polygon{
+    border: 2px solid red;
+    height: 100%;
+    width: 60%;
+    float: right;
+  }
+  #project2 #polygon, #project3 #polygon{
+    border: 2px solid red;
+    height: 100%;
+    width: 60%;
+    float: left;
+  }
+  #project2 .projectDescription, #project3 .projectDescription{
+    float: right;
+  }
+  #project1 #polygon{
+    background-image: url('images/Screenshot\ from\ 2021-04-03\ 16-11-54.png');
+    background-size: cover;
+  }
+  #project2 #polygon{
+    background-image: url('images/Screenshot\ from\ 2021-04-03\ 16-12-30.png');
+    background-size: cover;
+  }
+  #project3 #polygon{
+    background-image: url('images/Screenshot\ from\ 2021-04-03\ 16-12-43.png');
+    background-size: cover;
+  }
+  #project4 #polygon{
+    background-image: url('images/Screenshot\ from\ 2021-04-03\ 16-19-42.png');
+    background-size: cover;
+  }
