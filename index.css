@@ -245,3 +245,57 @@ svg:hover{
   margin: 0;
   height: 100%;
 }
+/*Styling the skillspart*/
+.topp{
+  padding:2% 5% 2% 5%;
+
+}
+#sidebar{
+  padding: 3% 1% 6% 3%;
+  float: left;
+  width: 20%;
+  line-height: 2em;
+  border: 2px solid seagreen;
+}
+#skills{
+  width: 80%;
+  height: 300px;
+  border: 2px solid red;
+  position: relative;
+  left: 20%;
+  padding: 0;
+  margin-bottom: 5%;
+}
+#skill1{
+  background-color: #732c02;
+  margin: 1%;
+  width: 20%;
+  height: 50%;
+  position: absolute;
+  left: 0px;
+}
+#skill2{
+  background-color: #eb691e;
+  margin: 1%;
+  width: 40%;
+  height: 50%;
+  position: absolute;
+  left: 21%;
+}
+#skill3{
+  background-color: #885538;
+  width: 36%;
+  height: 103%;
+  margin: 1%;
+  position: absolute;
+  left: 62%;
+  
+}
+#skill4{
+  background-color: #ff5e00;
+  width: 61%;
+  height: 50%;
+  margin-left: 1%;
+  position: relative;
+  top: 56%;
+  )
