@@ -126,7 +126,7 @@ button>.active{
 }
 /*Styling paragraph next to the image on landing page*/
 .greeting p:first-child{
-  border:2px dashed red;
+  border:2px solid #d99d55;
   position: relative;
   text-align: left;
   left: 10%;
@@ -135,15 +135,23 @@ button>.active{
   height: 310px;
   margin-top: 1%;
   overflow: hidden;
-  background-color: rgba(109, 126, 188, 0.7);
+  background-color: rgba(109, 126, 188, 1);
   color: white;
   border-radius: 15px;
+  line-height: 2em;
 }
 .greeting p:nth-child(2), #description{
   margin: 5% 0% 5% 0%;
   text-align: center;
 }
-
+#description{
+  background-color: #d99d55;
+  padding: 3%;
+  color: black;
+  text-shadow: 1px 0px 0px white;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
 /*Styling for contact page*/
 #contact{
   margin-top: 5%;
@@ -190,6 +198,9 @@ button>.active{
   border:2px solid red;
   padding: 3%;
   border-radius: 15px;
+}
+#the-story p{
+  margin-bottom: 3%;
 }
 #mapline{
   line-height: 10em;
@@ -385,25 +396,37 @@ transition: ease 0.5s;
     margin: 3% 2% 0 2%;
     height: 40%;
     width: 460px;
-    background-color: seagreen;
   }
   .projectDescription{
-    background-color: white;
+    background-color: #732c02;
     width: 40%;
     height: 100%;
     border: 2px solid #d99d55;
+    color: white;
+    padding: 2.5%;
+    font-size: 0.8em;
+
   }
   #polygon{
-    border: 2px solid red;
+    border: 3px solid #d99d55;
     height: 100%;
     width: 60%;
     float: right;
+    border-radius: 0 15px 15px 0;
+  }
+  #polygon:hover{
+    background-size: 2000%;
+    background-position: center;
+    border: 3px solid red;
+    
   }
   #project2 #polygon, #project3 #polygon{
-    border: 2px solid red;
+    border: 3px solid #d99d55;
     height: 100%;
     width: 60%;
     float: left;
+
+    border-radius:15px 0 0 15px;
   }
   #project2 .projectDescription, #project3 .projectDescription{
     float: right;
