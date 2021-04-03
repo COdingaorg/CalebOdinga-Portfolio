@@ -30,8 +30,10 @@
 }
 body{
   width: 100%;
-  font-family:Nexa, sans-serif;
+  font-family:PierSans, sans-serif;
   font-weight: 100;
+  line-height: 1.3em;
+  padding-bottom: 3%;
 }
 /*Styling for index.html*/
 #navbar{
@@ -42,7 +44,7 @@ body{
 }
 #navbar button{
   position: relative;
-  left: 40%;
+  left: 30%;
   margin-top: 20px;
   margin-right: 2%;
   width: 8%;
@@ -161,4 +163,52 @@ button>.active{
 }
 #copy{
   text-align: center;
+}
+/*Styling Background section in landing page"*/
+#background{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+  line-height: 1.5em;
+  width: 90%;
+  padding: 5%;
+}
+#the-story{
+  width: 90%;
+  border:2px solid red;
+  padding: 3%;
+  border-radius: 15px;
+}
+#mapline{
+  line-height: 10em;
+  width: 15%;
+  position: relative;
+  left: 8%;
+}
+#map1, #map2, #map3{
+  shape-outside: circle(35% at 50%);
+  clip-path: circle(35% at 50%);
+  background-color: #d99d55;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+}
+#mapline a{
+  text-decoration: none;
+}
+#mapline>a :hover{
+  color: #D96704;
+  font-size: 1.5em;
+  background-color: #732c02;
+  text-shadow: 1px 0px 0px white;
+}
+.line{
+  text-align: center;
+  border-left: 2px solid #732c02;
+  height: 100px;
+  margin:0%;
+  position: relative;
+  left: 50%;
+  margin:-20% 0% -20% 0%;
 }
