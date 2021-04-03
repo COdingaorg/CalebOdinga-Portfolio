@@ -240,10 +240,12 @@ svg{
   height: 80%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
+  transition: ease-out 0.5s;
 }
 svg:hover{
   margin: 0;
   height: 100%;
+  transition: ease-in 0.8s;
 }
 /*Styling the skillspart*/
 .topp{
@@ -255,16 +257,15 @@ svg:hover{
   float: left;
   width: 20%;
   line-height: 2em;
-  border: 2px solid seagreen;
 }
 #skills{
   width: 80%;
   height: 300px;
-  border: 2px solid red;
   position: relative;
   left: 20%;
   padding: 0;
   margin-bottom: 5%;
+  color: white;
 }
 #skill1{
   background-color: #732c02;
@@ -273,6 +274,9 @@ svg:hover{
   height: 50%;
   position: absolute;
   left: 0px;
+  background-image: url('images/html5.png');
+  background-position: center;
+  background-size: contain;
 }
 #skill2{
   background-color: #eb691e;
@@ -281,6 +285,7 @@ svg:hover{
   height: 50%;
   position: absolute;
   left: 21%;
+  background-image: url('images/css3.jpeg');
 }
 #skill3{
   background-color: #885538;
@@ -289,7 +294,9 @@ svg:hover{
   margin: 1%;
   position: absolute;
   left: 62%;
-  
+  background-image: url('images/js.jpg');
+  background-position: center;
+  background-size: 160%;
 }
 #skill4{
   background-color: #ff5e00;
@@ -298,6 +305,9 @@ svg:hover{
   margin-left: 1%;
   position: relative;
   top: 56%;
+  background-image: url('images/figma.png');
+  background-position: center;
+  background-size: 120%;
 }
   /*Styling the projec samples section*/
   #projects{
@@ -367,7 +377,7 @@ svg:hover{
     color: white;
   }
   #overlay{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
   }
   #hobbiesslide{
     height: 300px;
@@ -428,6 +438,6 @@ svg:hover{
     color: white;
   }
   #play audio{
-    margin-top: 2S%;
+    margin-top: 2%;
   }
  
