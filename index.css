@@ -179,6 +179,22 @@ button>.active{
   margin-top: -2%;
 }
 /*styling for new item id galllery, after the mapline befor contacts page on index,html*/
+#gallery{
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 100%;
+  overflow-x: scroll;
+}
+#gallery img{
+  margin: 0%;
+}
+#gal{
+  text-align: center;
+  margin: 1%;
+  color: #732c02;
+  text-decoration: underline;
+  }
 /*Styling for contact page*/
 #contact{
   margin-top: 5%;
@@ -231,7 +247,7 @@ button>.active{
 #the-story{
   margin-top: -8%;
   width: 90%;
-  padding: 10% 2%10% 2%;
+  padding: 10% 2% 0% 2%;
   border-radius: 15px;
   background-size:104% 96%;
   background-position: center;
