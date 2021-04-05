@@ -78,7 +78,8 @@ button>.active{
   text-align: center;
 }
 /*Styling for the landing page image*/
-#face{
+#face::before{
+  content: "";
   float: left;
   height: 300px;
   width: 300px;
@@ -89,9 +90,24 @@ button>.active{
   background-position-y: 8%;
   background-size: 100%;
   font-size: 0%;
-  margin-top: 1%;
-  margin-left: 8%;
-}/*Styling for the log and adding the shape to it*/
+  margin-top: 2%;
+  margin-left: 2%;
+}
+#face{
+  float: left;
+  height: 312px;
+  width: 312px;
+  shape-outside: circle();
+  clip-path: circle();
+  background-color: #d99d55;
+  margin-left: 10%;
+  transition:  cubic-bezier(1, 0, 0, 1) 2s;
+}
+#face:hover{
+  width: 300px;
+  transition: ease-out .8s;
+}
+  /*Styling for the log and adding the shape to it*/
 #logo{
   margin-left: 20px;
   float: left;
@@ -126,7 +142,7 @@ button>.active{
 }
 /*Styling paragraph next to the image on landing page*/
 .greeting p:first-child{
-  border:2px solid #d99d55;
+  border:4px solid #d99d55;
   position: relative;
   text-align: left;
   left: 10%;
@@ -135,22 +151,32 @@ button>.active{
   height: 310px;
   margin-top: 1%;
   overflow: hidden;
-  background-color: rgba(109, 126, 188, 1);
+  background-color: rgba(109, 126, 188, .9);
   color: white;
   border-radius: 15px;
-  line-height: 2em;
+  line-height: 1.8em;
+  font-size: 1.15em;
+  font-family: nexa;
+  font-style: 800;
+}
+.greeting p:first-child a{
+  color: white;
+  font-family: nexa;
+  font-size: 1.3em;
 }
 .greeting p:nth-child(2), #description{
   margin: 5% 0% 5% 0%;
   text-align: center;
+  font-family: nexa;
+  font-size: 1.4em;
 }
 #description{
-  background-color: #d99d55;
+  background-color: #732c02;
   padding: 3%;
-  color: black;
-  text-shadow: 1px 0px 0px white;
+  color: white;
   font-size: 1.2em;
   line-height: 1.4em;
+  margin-top: -2%;
 }
 /*Styling for contact page*/
 #contact{
@@ -193,11 +219,24 @@ button>.active{
   width: 90%;
   padding: 5%;
 }
+#landing{
+  background-image: url('images/hexagonshadow.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0;
+  margin-top: -1%;
+  padding-top: 2%;
+}
 #the-story{
+  margin-top: -8%;
   width: 90%;
-  border:2px solid red;
-  padding: 3%;
+  padding: 10% 2%10% 2%;
   border-radius: 15px;
+  background-size:104% 96%;
+  background-position: center;
+  overflow: visible;
+  background-repeat: no-repeat;
+  color: #black;
 }
 #the-story p{
   margin-bottom: 3%;
